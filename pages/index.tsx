@@ -40,7 +40,7 @@ const Home: NextPage = () => {
   };
 
   return (
-    <div className="flex flex-col w-screen px-5 py-5 h-screen bg-[#1A1A1A] justify-center items-center">
+    <div className="flex flex-col my-20 w-screen px-5 h-screen justify-center items-center">
       <Head>
         <title>Noortje quiz</title>
       </Head>
@@ -76,7 +76,7 @@ const Home: NextPage = () => {
               </div>
             ))}
           </div>
-          <div className="flex bg-[#1A1A1A] py-5 justify-between w-full mt-4 text-white">
+          <div className="flex bg-[#1A1A1A] mt-10 justify-between w-full mt-4 text-white">
             <button
               onClick={handlePrevious}
               className={`w-[49%] py-3 ${currentQuestion === 0 ? 'bg-indigo-400' : 'bg-indigo-600'} rounded-lg`}
