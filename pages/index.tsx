@@ -5,8 +5,9 @@ import { useState } from 'react';
 import questions from '../assets/questions.json';
 
 const Home: NextPage = () => {
+  const result : any[] = [];
   const [currentQuestion, setCurrentQuestion] = useState(0);
-  const [selectedOptions, setSelectedOptions] = useState([]);
+  const [selectedOptions, setSelectedOptions] = useState(result);
 
   const [score, setScore] = useState(0);
   const [showScore, setShowScore] = useState(false);
@@ -14,7 +15,6 @@ const Home: NextPage = () => {
   const handleAnswerOption = (answer: string) => {
     setSelectedOptions([(selectedOptions[currentQuestion] = { answerByUser: answer })]);
     setSelectedOptions([...selectedOptions]);
-    console.log(selectedOptions);
   };
 
   const handlePrevious = () => {
