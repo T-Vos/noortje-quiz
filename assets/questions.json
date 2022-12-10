@@ -9,7 +9,7 @@
     ]
   },
   {
-    "question": "When was Next.js released?",
+    "question": "Lorem Ipsum",
     "questionType": "Beeld & Geluid",
     "answerOptions": [
       { "answer": "Lorme" },
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "question": "Which CSS Framework are we using?",
+    "question": "Lorem Ipsum",
     "questionType": "Vroeger & Later",
     "answerOptions": [
       { "answer": "Lorme" },
@@ -27,7 +27,7 @@
     ]
   },
   {
-    "question": "Which class in Tailwind is used to set flex direction of column?",
+    "question": "Lorem Ipsum",
     "questionType": "Kunst & Cultuur",
     "answerOptions": [
       { "answer": "Lorme" },
@@ -36,7 +36,7 @@
     ]
   },
     {
-    "question": "Which class in Tailwind is used to set flex direction of column?",
+    "question": "Lorem Ipsum",
     "questionType": "Natuur & Techniek",
     "answerOptions": [
       { "answer": "Lorme" },
@@ -45,7 +45,7 @@
     ]
   },
       {
-    "question": "Which class in Tailwind is used to set flex direction of column?",
+    "question": "Lorem Ipsum",
     "questionType": "Sport & Hobby",
     "answerOptions": [
       { "answer": "Lorme" },
