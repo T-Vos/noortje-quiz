@@ -1,56 +1,63 @@
 [
   {
-    "question": "Lorem Ipsum",
+    "question": "Hoe snel liep ik de Zandvoort run?",
     "questionType": "Hemel & Aarde",
     "answerOptions": [
-      { "answer": "Lorme" },
-      { "answer": "Ipsum" },
-      { "answer": "Dolomor", "isCorrect": true }
+      { "answer": "20:38" },
+      { "answer": "20:14", "isCorrect": true },
+      { "answer": "21:14" },
+      { "answer": "19:38" }
     ]
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "Hoe heet het kanaal waar ik graag sims filmpjes op kijk?",
     "questionType": "Beeld & Geluid",
     "answerOptions": [
-      { "answer": "Lorme" },
-      { "answer": "Ipsum" },
-      { "answer": "Dolomor", "isCorrect": true }
+      { "answer": "Simbiosis" },
+      { "answer": "Simers" },
+      { "answer": "Lilsimsie", "isCorrect": true },
+      { "answer": "Simselasim" }
     ]
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "Wie belde mij vroeger graag (liefst in de ochtend)?",
     "questionType": "Vroeger & Later",
     "answerOptions": [
-      { "answer": "Lorme" },
-      { "answer": "Ipsum" },
-      { "answer": "Dolomor", "isCorrect": true }
+      { "answer": "Saskia" },
+      { "answer": "Ik werd niet gebeld" },
+      { "answer": "Emma" },
+      { "answer": "Robin", "isCorrect": true }
     ]
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "Wie was mijn meest geluisterde artiest in 2022?",
     "questionType": "Kunst & Cultuur",
     "answerOptions": [
-      { "answer": "Lorme" },
-      { "answer": "Ipsum" },
-      { "answer": "Dolomor", "isCorrect": true }
+      { "answer": "Ne-Yo" },
+      { "answer": "Bankzitters" },
+      { "answer": "Hans Zimmer" },
+      { "answer": "Rihanna" },
+      { "answer": "Ludovico Einaudi", "isCorrect": true }
     ]
   },
     {
-    "question": "Lorem Ipsum",
+    "question": "Waarmee heb ik lampjes geprogrammeerd?",
     "questionType": "Natuur & Techniek",
     "answerOptions": [
-      { "answer": "Lorme" },
-      { "answer": "Ipsum" },
-      { "answer": "Dolomor", "isCorrect": true }
+      { "answer": "Een EV3" },
+      { "answer": "Een raspberry pi" },
+      { "answer": "Een Arduino", "isCorrect": true },
+      { "answer": "Een Colossus" }
     ]
   },
       {
-    "question": "Lorem Ipsum",
+    "question": "Wat is het leeftijdsverschil tussen Max en zijn vriendin?",
     "questionType": "Sport & Hobby",
     "answerOptions": [
-      { "answer": "Lorme" },
-      { "answer": "Ipsum" },
-      { "answer": "Dolomor", "isCorrect": true }
+      { "answer": "9 jaar", "isCorrect": true },
+      { "answer": "14 jaar" },
+      { "answer": "5 jaar" },
+      { "answer": "7 jaar" }
     ]
   }
 ]

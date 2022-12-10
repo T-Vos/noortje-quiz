@@ -40,14 +40,12 @@ const Home: NextPage = () => {
   };
 
   return (
-    <div className="flex flex-col w-screen px-5 h-screen bg-[#1A1A1A] justify-center items-center">
+    <div className="flex flex-col w-screen px-5 py-5 h-screen bg-[#1A1A1A] justify-center items-center">
       <Head>
         <title>Noortje quiz</title>
       </Head>
       {showScore ? (
-        <h1 className="text-3xl font-semibold text-center text-white">
-          You scored {score} out of {questions.length}
-        </h1>
+        Result(score)
       ) : (
         <>
           <div className="flex flex-col items-center md:flex-row w-full">
@@ -78,7 +76,7 @@ const Home: NextPage = () => {
               </div>
             ))}
           </div>
-          <div className="flex justify-between w-full mt-4 text-white">
+          <div className="flex bg-[#1A1A1A] py-5 justify-between w-full mt-4 text-white">
             <button
               onClick={handlePrevious}
               className={`w-[49%] py-3 ${currentQuestion === 0 ? 'bg-indigo-400' : 'bg-indigo-600'} rounded-lg`}
@@ -117,3 +115,16 @@ const typeToSrcSwith = (questiontype: string): string => {
 };
 
 export default Home;
+
+function Result(score: number) {
+  return (<>
+  <h1 className="text-3xl font-semibold text-center text-white">
+  🎉🎉 Gefliciteerd! 🎉🎉
+  </h1>
+  <h1 className="text-3xl font-semibold text-center text-white/40">
+    {score} vragen van de {questions.length} goed
+  </h1>
+  <p className="font-semibold mt-10 text-center text-white">Ga naar boven</p>
+  </>);
+}
+
